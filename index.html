@@ -3,13 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>EtCh a SkEtCh</title>
     <link href="index.css" rel="stylesheet">
 </head>
 <body>
-    <h1>This is my first page</h1>
-    <h2 id="timeId"></h2>
-    
+    <div class="mainContainer">
+    <div class="top">
+        <div id="left">
+            <h4>Size of Canvas</h4>
+           <input type="number" min="16" max="100" id="changeSize" onclick="changeGrid()" placeholder="16">
+            
+        </div>
+            <div id="right">
+            <h5 id="alert"></h5>
+            <button id="clear">Clear Canvas</button>
+            </div>
+    </div>
+   <div id="container" class="container">
+
+
+   </div>
+   </div>
     <script src="index.js"></script>
 </body>
 </html>
